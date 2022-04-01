@@ -70,14 +70,17 @@ a{
 .details{
     display: flex;
     justify-content:center;
-     width: 50%;
+    font-size: 30px;
+    font-weight: bold;
+    width: 60%;
     margin: auto; 
 } 
 
 .details ul{
     display: flex;
     align-items: center;
-    gap: 150px;
+    gap: 25px;
+
 }
 
 .details ul li{
@@ -169,8 +172,7 @@ a{
     gap: 100px;
 }
 .dwon .explain{
-    width: 36%;
-    margin-bottom: 80px;
+    width: 34%;
 } 
 .dwon .left{
     font-size:20px;
@@ -179,9 +181,6 @@ a{
 .dwon .left span{
     color: black;
     font-size: 35px;
-}
-.dwon div{
-    margin-bottom: 60px;
 }
 
 #order2{
@@ -196,7 +195,7 @@ a{
 
 .img p{
     color: white;
-    width: 15%;
+    width: 20%;
     text-align: center;
     margin-bottom: 60px;
 }
