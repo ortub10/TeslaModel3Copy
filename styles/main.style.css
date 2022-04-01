@@ -70,7 +70,6 @@ a{
 .details{
     display: flex;
     justify-content:center;
-    /* border: 1px solid; */
      width: 50%;
     margin: auto; 
 } 
@@ -163,38 +162,36 @@ a{
  }
  .dwon{
    height: 25%;
-   position: relative;
+   display: flex;
    color: gray;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
 }
 .dwon .explain{
     width: 36%;
-    position: absolute;
-    right: 20%;
-    top:30px
+    margin-bottom: 80px;
 } 
 .dwon .left{
-    position: absolute;
-    left: 20%;
-    top: 25px;
-    font-size: 20px;
+    font-size:20px;
 }
 
 .dwon .left span{
     color: black;
     font-size: 35px;
 }
+.dwon div{
+    margin-bottom: 60px;
+}
 
 #order2{
-    position: absolute;
-    top:40%;  
-    left:29%  
-}   
-
+    margin-left:150px ;
+}
 .img{
     display: flex;
     align-items:flex-end;
     justify-content: center;
-    gap:20px
+    gap:20px;
 }
 
 .img p{
